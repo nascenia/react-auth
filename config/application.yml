@@ -1,0 +1,23 @@
+test:
+  domain: "127.0.0.1:3000"
+  domain_only: "127.0.0.1"
+  xml_folder: "/home/rpl/uploads/"
+  braintree:
+      merchant_id:
+      public_key:
+      private_key:
+
+development:
+  domain: "http://0.0.0.0:3009"
+  domain_only: "0.0.0.0"
+  xml_folder: "/home/sumon/RPL"
+  front_domain: 'http://localhost:3000'
+  braintree:
+    merchant_id: 'ggxcsbqrryb3dsrw'
+    public_key: 'gf6qnhwq4h4gbc8q'
+    private_key: 'f098888ec666785963a38ad103b3703d'
+
+production:
+  domain: "rplv2dev.scrij.com"
+  domain_only: "rplv2dev.scrij.com"
+  xml_folder: "/home/rpl/uploads/"

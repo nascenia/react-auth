@@ -1,0 +1,56 @@
+a{
+  color: #9d9d9d;
+}
+.auth-container{
+  margin-right: 20px;
+}
+
+a.active.navbar-brand,a.active.navbar-brand:hover, a.active{
+  color: #0275d8;
+}
+
+.request-list{
+  font-family: fantasy;
+  border: 2px solid #f7f7f9
+}
+
+.request-list .header {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: inherit;
+}
+
+.request-list .body{
+}
+.request-list .body .request{
+  font-size: 16px;
+  padding: .75rem 0;
+}
+
+.request-list .body .request{
+  color: green;
+  text-decoration: line-through;
+}
+.processed p{
+  text-decoration: line-through;
+}
+
+.request-list .body .pending.request{
+  color: inherit;
+}
+
+.request-list .body .processing.request{
+  color: #000000;
+}
+
+
+/* For small screen */
+.request-list .body .request:nth-of-type(even){
+  background-color: rgba(0,0,0,.05);
+}
+.request-list .body .request:nth-of-type(odd){
+  background-color: #dff0d8;
+}
+
+/*.navbar-inverse .navbar-brand*/
